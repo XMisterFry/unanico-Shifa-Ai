@@ -1,5 +1,5 @@
 
-  const distributorData =  [
+  const retailData =  [
     {
       "id": "D01",
       "state": "Delhi",
@@ -18,5 +18,5 @@
     }
   ]
 
-  export default distributorData;
+  export default retailData;
 

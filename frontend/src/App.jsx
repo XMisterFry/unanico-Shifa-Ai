@@ -25,9 +25,9 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/diagnose`, {
-        symptoms: input,
-        history: newMessages // send conversation so AI can follow up
+      const res = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/chat`, {
+        message:input
+        // send conversation so AI can follow up
       });
 
       // Add Hakeem's reply
@@ -48,7 +48,7 @@ function App() {
   return (
    
     <div className="chat-container">
-      <h2>unanico Hakeem Ai</h2>
+      <h2>unanico Shifa Ai</h2>
      <DisclaimerOverlay />
       <div className="chat-box">
         {messages.map((msg, i) => (
@@ -64,7 +64,7 @@ function App() {
       <form onSubmit={handleSend} className="input-area">
         <input
           type="text"
-          placeholder="Type your symptoms..."
+          placeholder="How can I help..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
           disabled={loading}
