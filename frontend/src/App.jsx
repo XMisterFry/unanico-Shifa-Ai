@@ -48,7 +48,7 @@ function App() {
   return (
    
     <div className="chat-container">
-      <h2>unanico Shifa Ai</h2>
+      <h2>Shifa Ai 1.0</h2>
      <DisclaimerOverlay />
       <div className="chat-box">
         {messages.map((msg, i) => (

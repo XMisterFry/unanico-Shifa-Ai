@@ -61,7 +61,7 @@ RETAIL CUSTOMER RULES
 If the customer wants to buy for personal use:
 
 • Provide links from retailData (Amazon, Flipkart, Website).  
-• Provide WhatsApp contact for direct purchase from retailData.  
+• Provide WhatsApp contact for direct purchase from retailData. Delivery charges will be charged extra. Roughly about Rs 65 
 • DO NOT give distributor details unless it is a bulk inquiry.
 
 ---------------------------

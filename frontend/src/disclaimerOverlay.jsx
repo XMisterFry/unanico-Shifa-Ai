@@ -43,13 +43,12 @@ const DisclaimerOverlay = () => {
         <p>
           This chat does not save your data. If you close or reload, your conversation will reset.
         </p>
-        <p> You can type in English, Hindi, or Urdu or Hindi in english Characters like "Mujhe qabz rehta hai"</p>
+        <p> You can type in English, Hindi, or Urdu or Hindi in english Characters like "Mujhe Siko khareedna hai"</p>
         <p>
-          This is an AI-powered tool that suggests diagnoses based on the information you provide.
-          It is <strong>not</strong> a substitute for a real Hakeem (doctor) or professional medical advice.
+          This is an AI-powered tool that can help customers know our products better, ask questions about our products and where they can buy or make wholesale enquiries.
         </p>
         <p>
-          The chat is limited to diseases related to the products our company markets.
+         The chat only helps our customers know us better, do not misuse or make irrelavant questions
         </p>
         <p>
           Always consult a qualified healthcare professional before taking any medical decision.
