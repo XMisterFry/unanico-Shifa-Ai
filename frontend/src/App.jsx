@@ -2,6 +2,8 @@ import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import DisclaimerOverlay from "./disclaimerOverlay.jsx";
+import shifaLogo from "./assets/shifa-logo.png";
+
 
 function App() {
   const [messages, setMessages] = useState([]); // Stores conversation history
@@ -48,7 +50,11 @@ function App() {
   return (
    
     <div className="chat-container">
-      <h2>Shifa Ai 1.0</h2>
+     <div className="chat-header">
+  <img src={shifaLogo} alt="Shifa Logo" className="chat-logo" />
+  <h2>Shifa Ai 1.0</h2>
+</div>
+
      <DisclaimerOverlay />
       <div className="chat-box">
         {messages.map((msg, i) => (

@@ -30,11 +30,30 @@ html, body, #root {
 }
 
 /* Header bar */
-.chat-container h2 {
+.chat-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 2px;     /* space between logo and title */
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffd33b;
+}
+
+.chat-logo {
+  width: 80px;   /* adjust size as needed */
+  height: 40px;
+  object-fit: contain;
+  
+}
+
+.chat-header h2 {
   margin: 0;
-  padding: 12px;
-  background: #af1914;
-  color: white;
+  padding: 5px;
+  background: #ffd33b;
+  color: black;
   text-align: center;
   font-size: 1.2rem;
   flex-shrink: 0;
@@ -53,8 +72,8 @@ html, body, #root {
 
 /* User message bubble */
 .user-msg {
-  background-color: #af1914;
-  color: white;
+  background-color: #ffd33b;
+  color: black;
   padding: 10px;
   border-radius: 12px;
   margin: 6px 0;
@@ -101,8 +120,8 @@ html, body, #root {
 /* Button style: fixed size so it doesn't get pushed off-screen */
 .input-area button {
   padding: 8px 14px;
-  background: #af1914;
-  color: white;
+  background: #ffd33b;
+  color: black;
   border: none;
   border-radius: 20px;
   cursor: pointer;

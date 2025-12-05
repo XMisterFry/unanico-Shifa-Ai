@@ -24,8 +24,8 @@ const DisclaimerOverlay = () => {
       top: 0, left: 0,
       width: "100%",
       height: "100%",
-      backgroundColor: "rgba(0,0,0,0.8)",
-      color: "#fff",
+      backgroundColor: "#ffd33b",
+      color: "#000000ff",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
@@ -33,7 +33,7 @@ const DisclaimerOverlay = () => {
       padding: "20px"
     }}>
       <div style={{
-        background: "#222",
+        background: "#ffd33b",
         padding: "30px",
         borderRadius: "10px",
         maxWidth: "600px",
@@ -57,7 +57,7 @@ const DisclaimerOverlay = () => {
           onClick={handleAccept}
           style={{
             padding: "10px 20px",
-            backgroundColor: "#4CAF50",
+            backgroundColor: "#39bd18ff",
             border: "none",
             color: "white",
             cursor: "pointer",
