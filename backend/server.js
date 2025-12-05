@@ -6,6 +6,8 @@ import OpenAI from "openai";
 import distributorData from "./distributorData.js"; 
 import productsData from "./productsData.js";
 import retailData from "./retailData.js"
+import { findBestProducts } from "./productMatcher.js";
+
 
 
 dotenv.config();
